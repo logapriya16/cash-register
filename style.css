@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap');
+:root{
+    --primary-color:#4d7c0f;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+ margin: 4rem auto 7rem;
+ text-align: center;
+}
+.body{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    min-width: 100vw;
+    font-weight: 1000;
+}
+.heading{
+    text-align: center;
+    font-weight: 5000;
+    color: var(--primary-color);
+}
+.description{
+    text-align: center;
+    font-size: x-large;
+    margin: 1rem;
+
+}
+.input-lable{
+    display: block;
+    font-size: x-large;
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+    padding: 0.5rem;
+    
+}
+.input{
+    font-size: 14px;
+    outline:#fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 3px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+}
+.btn{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 0.5rem 0.5rem;   
+    font-size: x-large;
+    cursor:pointer;
+    outline: #fff;
+    margin: auto;
+    border-radius: 1rem;
+    display: block;
+    width: 10%;
+    border: none;
+}
+#error-message{
+    display: block;
+    font-size: large;
+    margin: 1rem 0 0;
+}
+.change-table{
+    padding: 0.5rem;
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+}
+.change-table caption{
+    margin: 1rem auto;
+    font-size: x-large;
+    font-weight: 500;
+}
+.th,td{
+    border: 2px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem 1rem;
+}
+.list-item-inline
+{
+    display: inline;
+    padding: 0rem 0.5rem;  
+     
+}
+.footer-container{
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+}
+.footer-header{
+    padding: 0.5rem;
+}
