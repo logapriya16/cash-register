@@ -55,10 +55,14 @@
     cursor:pointer;
     outline: #fff;
     margin: auto;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     display: block;
-    width: 10%;
     border: none;
+}
+.h4{
+font-weight: bold;
+padding: 0.5rem;
+font-size: large;
 }
 #error-message{
     display: block;
@@ -71,11 +75,7 @@
     text-align: justify;
     border-collapse: collapse;
     margin: auto;
-}
-.change-table caption{
-    margin: 1rem auto;
-    font-size: x-large;
-    font-weight: 500;
+    border-color: #4d7c0f;
 }
 .th,td{
     border: 2px solid var(--primary-color);

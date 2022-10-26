@@ -6,19 +6,25 @@
         <title>Mark 10 Cash Register</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body class="body">
+    <body>
         <main class="container">
-        <div>
             <h1 class="heading">CASH REGISTER MANAGER</h1>
             <p class="description">Enter the bill amount and cash given by the customer and know the minimum number of notes to return</p>
+        <div class="cash-given">
             <label class="input-lable"for="bill-amount">Bill Amount :</label>
             <input class="input" type="text" id="bill-amount"/>
+            <button class="btn" id="next-Btn">Next</button>
+        </div>    
+        <div class="cash-given">
             <lable class="input-lable"for="cash-given">Cash Given :</lable>
             <input class="input" type="text" id="cash-given">
             <button  class="btn" id="check-btn">Check</button>
-            <p id="error-message"></p>
-            <table class="change-table" border="2">
-                <caption>Return Change</caption>
+        </div>    
+        <div id="error-message"></div>
+        <div class="change-table">  
+            <h4 class="h4">Return Change :</h4>
+            <div class="output">  
+            <table   border="2">           
                 <tr>
                     <th>No of Notes</th>
                     <td class="no-of-notes"></td>
@@ -41,6 +47,7 @@
                 </tr>
             </table>
             </div>
+        </div>
         </main>
         <script src="script.js"></script>
     </body>
